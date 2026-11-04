@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Kantumruy+Pro:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-serif: "Kantumruy Pro", ui-serif, Georgia, Cambria, serif;
+  
+  --color-brand: #FF9F0A;
+  --color-app-bg: #0D0D0D;
+  --color-canvas-bg: #080808;
+  --color-panel-bg: #131313;
+  --color-card-bg: #1A1A1A;
+  --color-app-border: #1F1F1F;
+  --color-app-border-light: #2A2A2A;
+  --color-app-primary: #EBEBEB;
+  --color-app-secondary: #888888;
+}
+
+body {
+  background-color: #0D0D0D;
+  color: #EBEBEB;
+}
+
+/* Custom styles for professional scrollbars and focus outlines */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2A2A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FF9F0A;
+}
+
